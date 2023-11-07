@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "0.28.1"
+python-dotenv = "*"
+httpx = "*"
+pandas = "*"
+streamlit = "*"
+langchain = "0.0.323"
+tabulate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
